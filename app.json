@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/cards/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FECA49",
+    "navigationBarTitleText": "娱乐梦工厂",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F0F0F0"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#FECA49",
+    "color": "#D78B09",
+    "selectedColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "icons/home-default.png",
+        "selectedIconPath": "icons/home-active.png"
+      },
+      {
+        "text": "卡券",
+        "pagePath": "pages/index/index",
+        "iconPath": "icons/ticket-default.png",
+        "selectedIconPath": "icons/ticket-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/cards/index",
+        "iconPath": "icons/face-default.png",
+        "selectedIconPath": "icons/face-active.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+<!-- 轮播图 -->
+<swiper indicator-dots autoplay="2000" indicator-color="rgba:255,255,255,.6" indicator-active-color="#FFFFFF" circular	>
+<swiper-item>
+ <image src="../../uploads/slide_1.jpg"></image>
+</swiper-item>
+<swiper-item>
+ <image src="../../uploads/slide_2.jpg"></image>
+</swiper-item>
+<swiper-item>
+ <image src="../../uploads/slide_3.jpg"></image>
+</swiper-item>
+<swiper-item>
+ <image src="../../uploads/slide_4.jpg"></image>
+</swiper-item>
+<swiper-item>
+ <image src="../../uploads/slide_5.jpg"></image>
+</swiper-item>
+
+</swiper>
+
+<!-- 内容 -->
+<view class='title'>娱乐爆料</view>
+
+<view>
+<navigator url="">
+  <image src='../../uploads/item_3.jpeg'></image>
+  </navigator>
+</view>
+<view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 其它信息 -->
+    <view class="extra">
+      <!-- 相当于网页中的 span 属于行内元素 -->
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+    <view class="topview">
+   <image src="../../images/status_active.png" class="topimg"></image>
+   <view class="font">进行中</view>
+  </view> 
+  </view>
+  <view>
+<navigator url="">
+  <image src='../../uploads/item_1.jpg'></image>
+  </navigator>
+</view>
+<view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 其它信息 -->
+    <view class="extra">
+      <!-- 相当于网页中的 span 属于行内元素 -->
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+    <view class="topview">
+   <image src="../../images/status_default.png" class="topimg"></image>
+   <view class="font">已结束</view>
+  </view> 
+  </view>
+  <view>
+<navigator url="">
+  <image src='../../uploads/item_2.jpg'></image>
+  </navigator>
+</view>
+<view class="info">
+    <!-- 活动名称 -->
+    <view class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</view>
+    <!-- 其它信息 -->
+    <view class="extra">
+      <!-- 相当于网页中的 span 属于行内元素 -->
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+    <view class="topview">
+   <image src="../../images/status_default.png" class="topimg"></image>
+   <view class="font">以截至</view>
+  </view> 
+  </view>
+
+
+
+  

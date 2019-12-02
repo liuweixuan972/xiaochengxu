@@ -1,0 +1,47 @@
+/* pages/cards/index.wxss */
+
+page {
+    background: #F0F0F0;
+}
+
+.items {
+    padding-left: 15px;
+    background: #FFF;
+}
+
+.items view {
+    display: flex;
+    padding: 10px 15px 10px 0;
+    color: #3C3C3C;
+    font-size: 14px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.items view:last-child {
+    border-bottom: 0 none;
+}
+.submit{
+  color: white;
+  width: 640rpx;
+  background-color: #FECA49;
+  margin-top: 40rpx
+}
+.verify{
+  line-height: 72rpx;
+  text-align: center;
+  width: 192rpx;
+  height: 72rpx;
+  background: #45B8FF;
+  border-radius: 35px;
+}
+.label1{
+  text-align: center;
+  line-height: 72rpx;
+}
+.Input{
+  padding-left: 350rpx;
+  line-height:100rpx
+}
+label{
+  line-height: 50rpx
+}
